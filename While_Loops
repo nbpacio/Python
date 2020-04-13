@@ -1,0 +1,79 @@
+While-Loops
+
+
+
+while expression:
+	block
+
+   expression is converted to boolean
+
+
+
+>>> c = 5
+>>> while c != 0:
+...     print(c)
+...     c -= 1
+... 
+5
+4
+3
+2
+1
+>>> 
+
+-= <----- augmented assignment
++=
+
+
+Simplified Version:
+
+>>> c = 5
+>>> while c:
+...     print(c)
+...     c -= 1
+... 
+5
+4
+3
+2
+1
+>>> 
+
+
+
+
+Relational Operators
+
+
+
+>>> while True:
+...     pass
+... 
+^CTraceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyboardInterrupt
+>>>
+
+- Ctrl+C to terminate loop
+
+
+
+
+BREAK:
+
+>>> 
+>>> while True:
+...     response = input()
+...     if int(response) % 7 == 0:
+...             break
+... 
+12
+67
+34
+28
+>>> 
+
+- % <---- modulus operator for divide
+- 0 <---- remainder
+
+
